@@ -1,0 +1,127 @@
+.sandclr-bg{
+    background-image: url(/assets/illustration\ \(1\).png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    position: relative;
+   
+}
+h2,p,a{
+    font-family: "Nunito Sans", sans-serif;
+}
+.logoimg{
+    height:50px ;
+    width: 50px;
+}
+
+.log-hdng{
+    color: #525252;
+    font-weight: 700;
+    font-size: 25px;
+}
+.log-para{
+    color: #525252;
+    font-size: 14px;
+}
+.google-login{
+    width: 100%;
+    background-color: white;
+    border: 1px solid #E8E8E8 ;
+    border-radius: 5px;
+    height: fit-content;  
+
+}
+.con-wid-g{
+    font-size: 14px;
+    color:#828282 ;
+    font-weight: 500;
+}
+.signin{
+    font-size: 10px;
+    color: #A1A1A1;
+
+}
+.emaill,.pswd{
+    color: #828282;
+    font-size: 14px;
+}
+.rmbrme{
+    font-size: 13px;
+    color: #828282;
+}
+.emailinput,.pswdinput{
+    height: 45px;
+    border: 1px solid #DED2D9;
+    
+}
+.pswdinput::placeholder{
+    color:#E0E0E0;
+    font-size: 12px;
+   
+}
+.emailinput::placeholder{
+    color:#E0E0E0;
+    font-size: 14px;
+   
+}
+input[type='checkbox'] {
+    accent-color: #7F265B;
+    height: 13px;
+    width: 13px;
+}
+.f-pswd{
+    color: #7F265B;
+    font-size: 12px;
+    font-weight: 700;
+}
+.log-btnn{
+    background-color: #7F265B;
+    border: 1px solid #7F265B;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+    width: 100%;
+}
+.not-yet,.crt-acc{
+    font-size: 15px;
+    font-weight: 500;
+}
+.not-yet{
+    color:#828282 ;
+}
+.crt-acc{
+   color: #7F265B; 
+}
+
+@media only screen and (min-width: 450px){
+   
+    .google-login{
+        width: 420px;
+    }
+    .log-hdng{
+       
+        font-weight: 700;
+        font-size: 36px;
+    }
+    .log-para{
+        
+        font-size: 16px;
+    }
+    .logoimg{
+        height:70px ;
+        width: 70px;
+    }
+    .con-wid-g{
+        font-size: 14px;
+    }
+    .signin{
+        font-size: 14px;
+
+    
+    }
+    .not-yet,.crt-acc{
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
